@@ -6,7 +6,7 @@
 <html>
 <head>
 	<title>도서등록</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css">
+	<link href="../resource/style.css" rel="stylesheet" type="text/css">
 <%
 	request.setCharacterEncoding("UTF-8");
 	int numb = Integer.parseInt(request.getParameter("numb"));

@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>도서등록</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css">
+	<link href="../resource/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 function book_inputCheck(){
 	if(document.bookFrm.isbn.value==""){

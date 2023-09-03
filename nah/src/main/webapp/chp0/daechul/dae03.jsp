@@ -6,7 +6,7 @@
 <html>
 <head>
 	<title>JSP Board</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css" >
+	<link href="../resource/style.css" rel="stylesheet" type="text/css" >
 <%
 	String usid = (String) session.getAttribute("idKey");
 	int numb = Integer.parseInt(request.getParameter("numb"));

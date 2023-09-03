@@ -17,7 +17,7 @@
 <html>
 <head>
 	<title>아이디 검색</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css">
+	<link href="../resource/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 	function loadSearch() {
 		frm = document.zipFrm;

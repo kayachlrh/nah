@@ -8,6 +8,8 @@
 <link href="../resource/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<img src="../images/a.jpg" width="1000" height="800">
+<div class="main-image">
+	<img src="../images/a.jpg" width="1300" height="800">
+</div>
 </body>
 </html>

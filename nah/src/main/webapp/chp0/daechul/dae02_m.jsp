@@ -12,7 +12,7 @@
 <html>
 <head>
 	<title>도서대출 반납</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css" >
+	<link href="../resource/style.css" rel="stylesheet" type="text/css" >
 </head>
 <body bgcolor="#FFFFCC" onLoad="daeFrm.usid.focus()">
 	<div align="center">

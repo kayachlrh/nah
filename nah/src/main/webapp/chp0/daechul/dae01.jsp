@@ -13,7 +13,7 @@
 <html>
 <head>
 	<title>도서 대출 관리</title>
-	<link href="../main/style.css" rel="stylesheet" type="text/css">
+	<link href="../resource/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 function dae_inputCheck(){
 	if(document.daeFrm.usid.value==""){
