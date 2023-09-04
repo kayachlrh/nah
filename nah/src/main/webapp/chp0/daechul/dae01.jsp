@@ -7,7 +7,7 @@
 <%@page import="chp0.Bean_Member"%>
 <jsp:useBean id="bookMgr" class="chp0.memberMgr"/>
 <%
-	//String usid = (String) session.getAttribute("idKey");
+
 	String mbigo = null;
 %>
 <html>
@@ -77,8 +77,8 @@ function dae_trans() {
 								<td>도서 ISBN 입니다.</td>
 							</tr>
 
-<!--
-							<tr>
+
+<!-- 					<tr>
 								<td>DB도서선택</td>
 								<td><select name=isbn>
 										<option value="0" selected>선택하세요.
@@ -94,18 +94,19 @@ function dae_trans() {
 											Bean_Booklist bean  = vlist.get(i);
 											String isbn = bean.getIsbn();
 											String bookname = bean.getBookname(); %>
-											<option value="<%=isbn%>"> <%=isbn%>_<%=bookname%>
+											<option value="<%=isbn%>"> <%=isbn%>_<%=bookname%></option>
 										<% }  // for
 				  					} %> 
-								</select></td>
+				  					
+				  					</select></td>
 								<td>DB에서 도서 선택</td>
-							</tr>
--->
+							</tr> -->
+
 
 							<tr>
 								<td>대출일자</td>
 								<td><input type="date" name="d_date" id="d_date" size="15">
-								    <!-- <input type="button" value="자료전송예시임" onClick="dae_trans()"> --> 
+								    
 						        </td>
 								<td>도서 대출일자 입니다.</td>
 							</tr>
@@ -135,7 +136,7 @@ function dae_trans() {
 								<td colspan="3" align="center">
 								    <input type="button" value="자료입력" onClick="dae_inputCheck()"> &nbsp; &nbsp; 
 								    <input type="reset"  value="다시쓰기"> &nbsp; &nbsp; 
-  								    <input type="button" value="대출내역" onClick="history.go(-1)">						
+  								    <input type="button" value="대출내역" onClick="window.close()">						
   								    <!-- <input type="button" value="자료전송예시임" onClick="dae_trans()"> -->						
 								</td>
 							</tr>
